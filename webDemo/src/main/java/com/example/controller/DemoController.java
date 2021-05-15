@@ -36,8 +36,9 @@ public class DemoController {
 		int add = num1 + num2;
 		ModelAndView model = new ModelAndView("Calculator.jsp");
         model.addObject("addition", add);
+        System.out.println("Addtion Done...");
 		return model;
-		
+				
 	}
 
 }
